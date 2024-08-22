@@ -42,6 +42,7 @@ ul li a {
     color: #35424a;
     font-weight: bold;
     display: block;
+    text-align: center;
 }
 
 ul li a:hover {
@@ -49,40 +50,21 @@ ul li a:hover {
 }
 
 .container {
-    width: 60%; /* تغيير العرض ليكون في المنتصف */
+    width: 60%;
     margin: 20px auto; /* يضع الحاوية في المنتصف */
     padding: 20px;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* توسيط النص */
 }
 
-.sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 20%;
-    height: 100%;
-    background-color: #35424a;
-    color: #ffffff;
-    padding-top: 20px;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-}
-
-.sidebar ul {
-    padding-left: 10px;
-}
-
-.sidebar ul li {
-    margin-bottom: 10px;
-}
-
-.sidebar ul li a {
-    color: #ffffff;
-}
-
-.sidebar ul li a:hover {
-    color: #e8491d;
+iframe {
+    width: 100%;
+    height: 315px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
