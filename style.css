@@ -86,16 +86,18 @@ iframe {
 }
 
 .owner-image img {
-    width: 150px; /* عرض الصورة */
-    height: 150px; /* ارتفاع الصورة */
+    width: 120px; /* تقليل عرض الصورة */
+    height: 120px; /* تقليل ارتفاع الصورة */
     border-radius: 50%; /* جعل الصورة دائرية */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* إضافة ظل */
+    object-fit: cover; /* التأكد من أن الصورة تناسب الإطار بشكل جيد */
 }
 
 .owner-image p {
     margin-top: 10px;
     font-weight: bold;
     color: #35424a;
+}
 }
 
 /* تنسيق التذييل */
