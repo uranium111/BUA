@@ -3,33 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الصفحة الرئيسية</title>
-    <link rel="stylesheet" href="style.css">
+    <title>موقعي الشخصي</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>جامعة BUA</h1>
+        <div class="logo">
+            <h1>اسم الموقع</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">عن الموقع</a></li>
+                <li><a href="#services">الخدمات</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="container">
-        <h2>مرحبا بكم في موقع جامعة BUA</h2>
-        
-        <!-- إضافة صورة صاحب الموقع -->
-        <div class="owner-image">
-            <img src="owner.jpg" alt="صورة صاحب الموقع">
-            <p> م.عبدالمنعم - مؤسس الموقع </p>
-        </div>
+    <section id="home" class="hero-section">
+        <h2>مرحبا بكم في موقعي</h2>
+        <p>هنا يمكنك وضع مقدمة قصيرة عن الموقع.</p>
+    </section>
 
-        <p>يمكنك العثور على المذكرات والفيديوهات التعليمية هنا:</p>
-        <ul>
-            <li><a href="math.html">الرياضيات</a></li>
-            <li><a href="physics.html">الفيزياء</a></li>
-            <!-- يمكنك إضافة المزيد من المواد هنا -->
-        </ul>
-    </div>
+    <section id="about" class="content-section">
+        <h2>عن الموقع</h2>
+        <p>هذا القسم يتحدث عن الموقع.</p>
+    </section>
+
+    <section id="services" class="content-section">
+        <h2>الخدمات</h2>
+        <p>هذا القسم يوضح الخدمات المقدمة.</p>
+    </section>
 
     <footer>
-        <p>جميع الحقوق محفوظة لجامعة BUA © 2024</p>
+        <p>© 2024 جميع الحقوق محفوظة.</p>
     </footer>
 </body>
 </html>
